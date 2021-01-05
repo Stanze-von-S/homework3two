@@ -211,4 +211,3 @@ const print = <T, K>(title: T, info: K) => {
   return ` ${title}: ${info}!` ;
 }
 print<string, number>('Возраст', 25);
-
